@@ -3,7 +3,8 @@
 // Test de connexion
 try
 {
-    $bdd = new PDO('mysql:host=localhost;dbname=blablafpa;charset=utf8', 'blablafpa', 'iES8Gnf*e-g3XFM'); 
+    // Renseigner les identifiants uniquement dans l'environnement local.
+    $bdd = new PDO('mysql:host=localhost;dbname=blablafpa;charset=utf8', 'blablafpa', 'CHANGE_ME');
   
 }
 
